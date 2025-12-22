@@ -1,35 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CIC Web Demo</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f2f5;
-            color: #333;
-        }
-        .container {
-            text-align: center;
-            padding: 2rem;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        h1 { margin-bottom: 0.5rem; }
-        p { color: #666; }
-    </style>
+    <title>ePlus AI Showcase | Where Technology Means More</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="container">
-        <h1>Hello from Replit!</h1>
-        <p>This is a CIC Web Demo running on Replit.</p>
-    </div>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">ePlus</a>
+            <nav>
+                <!-- Add nav links later if needed -->
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Where Technology<br>Means More</h1>
+            <p>Experience the future of enterprise efficiency with our cutting-edge AI solutions.</p>
+            <a href="#solutions" class="cta-button">Explore Solutions</a>
+        </section>
+
+        <section id="solutions" class="solutions">
+            <h2 class="section-title">Our AI Solutions</h2>
+            <div class="grid">
+
+                <!-- AI Support Bot Card -->
+                <a href="ai-support-bot/index.html" class="card support-bot">
+                    <div class="card-image">🤖</div>
+                    <div class="card-content">
+                        <h3>AI Support Bot</h3>
+                        <p>Intelligent, 24/7 customer support automation that understands context and resolves complex
+                            queries instantly.</p>
+                    </div>
+                </a>
+
+                <!-- App Builder Card -->
+                <a href="app-builder/index.html" class="card app-builder">
+                    <div class="card-image">✨</div>
+                    <div class="card-content">
+                        <h3>App Builder</h3>
+                        <p>Empower your team to build powerful internal tools and applications with natural language
+                            prompts.</p>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ePlus inc. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
+
 </html>
