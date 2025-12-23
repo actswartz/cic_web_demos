@@ -1,2 +1,7 @@
 run = "python3 -m http.server 8000 --bind 0.0.0.0"
 entrypoint = "index.html"
+
+[[ports]]
+local = 8000
+external = 8000
+
